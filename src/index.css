@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #240505;
+    color: #fefce8;
+    background-image: 
+      radial-gradient(circle at 50% 0%, rgba(220, 38, 38, 0.5) 0%, transparent 60%),
+      radial-gradient(circle at 12% 25%, rgba(234, 179, 8, 0.28) 0%, transparent 45%),
+      radial-gradient(circle at 88% 45%, rgba(220, 38, 38, 0.38) 0%, transparent 50%),
+      radial-gradient(circle at 15% 75%, rgba(245, 158, 11, 0.25) 0%, transparent 45%),
+      radial-gradient(circle at 85% 90%, rgba(220, 38, 38, 0.45) 0%, transparent 50%);
+    background-attachment: fixed;
+  }
+}
+
+/* Red & Yellow themed scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #1c0404;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #dc2626 0%, #eab308 100%);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ef4444 0%, #facc15 100%);
+}
+

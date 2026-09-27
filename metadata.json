@@ -1,0 +1,6 @@
+{
+  "name": "FireBite Fast Food",
+  "description": "Fresh, hot, and delicious fast food with gourmet burgers, crispy fried chicken, loaded fries, cheesy pizza, and exclusive deals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
